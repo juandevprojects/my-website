@@ -1,0 +1,91 @@
+nav {
+  /* background-color: blue !important; */
+  /* background-color: #0673DA !important; */
+  /* background-color: #1D9FF8 !important; */
+  /* background-color: #EFCE21 !important; */
+  /* background-color: rgba(239, 206, 33, 1); */
+    background-color: orange;
+    /* background-color: rgba(239, 206, 33, 1); */
+}
+
+
+#imagen_fondo {
+    background-image: url(../images/rotterdam-1598418_1920.jpg);
+}
+
+.cc-profile-image a:before {
+    /* border: 15px solid rgba(6, 115, 218, 0.6); */
+    /* border: 15px solid rgba(29, 159, 248, 0.6); */
+    border: 15px solid rgba(239, 206, 33, 0.6);
+    /* border: 15px solid orange; */
+
+}
+
+.btn-primary {
+    /* background-color: rgba(239, 206, 33, 0.6); */
+    background-color: orange;
+    color: #FFFFFF;
+}
+
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
+.show > .btn-primary.dropdown-toggle,
+.show > .btn-primary.dropdown-toggle:focus,
+.show > .btn-primary.dropdown-toggle:hover {
+  background-color: rgba(255, 165, 0, 0.8);
+  color: #FFFFFF;
+  -webkit-box-shadow: none;
+   box-shadow: none;
+}
+
+
+
+
+
+
+
+.progress-container.progress-primary .progress-value, .progress-container.progress-primary .progress-badge {
+    /* color: orange; */
+    color:  rgba(239, 206, 33, 1);
+
+}
+
+.progress-container.progress-primary .progress-bar {
+    background: orange;
+    /* background:  rgba(239, 206, 33, 1); */
+}
+
+.progress-container.progress-primary .progress {
+    background: rgba(255, 165, 0, 0.4);  
+    /* background:  rgba(239, 206, 33, 0.6); */
+}
+
+.nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
+    background-color: orange;
+    /* background-color: rgba(239, 206, 33, 1); */
+
+}
+
+.bg-primary {
+    background-color: orange !important;
+}
+
+
+.cc-reference .carousel-indicators .active {
+  background-color: orange;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .sidebar-collapse .navbar-collapse:before {
+        background: orange;
+        /* For browsers that do not support gradients */
+        /* For Safari 5.1 to 6.0 */
+        /* For Opera 11.1 to 12.0 */
+        /* For Firefox 3.6 to 15 */
+        background: -webkit-gradient(linear, left top, left bottom, from(orange), color-stop(80%, #000));
+        background: linear-gradient(orange 0%, #000 80%);
+    }
+}
